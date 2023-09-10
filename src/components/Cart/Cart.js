@@ -1,6 +1,7 @@
 import React, { Fragment, useContext } from "react";
 import CartContext from "../../store/cart-context";
 import CartItem from "./CartItem";
+import classes from './Cart.module.css';
 
 const Cart = (props) => {
     const cartCtx = useContext(CartContext);
@@ -24,9 +25,10 @@ const Cart = (props) => {
       };
   return (
     <Fragment>
- <div >
+      
+ <div className={classes.div} >
       <div>
-        <h3>Cart Items</h3>
+        <h3>Your Medicines</h3>
       </div>
       <table>
         <thead>
@@ -57,6 +59,7 @@ const Cart = (props) => {
         </div>
       </div>
     </div>
+    
     </Fragment>
   )
 }

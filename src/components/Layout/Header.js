@@ -14,7 +14,7 @@ const Header = (props) => {
           <h3>Medicine</h3>
         </div>
         <button className={classes.cartButton} onClick={props.onShowCart}>
-          <span>Your Cart</span>
+          <span>Cart</span>
           <span className={classes.badge}>{numberOfCartItems}</span>
         </button>
       </div>

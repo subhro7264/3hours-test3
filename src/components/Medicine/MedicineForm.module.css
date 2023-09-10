@@ -1,13 +1,39 @@
-.div{
-    background-color: rgba(61, 203, 26, 0.188);
-    height:15rem;
+/* MedicineForm.module.css */
+
+.div {
+    text-align: center;
+    margin: 20px;
+    background-color: #0099fff7;
+    border-radius: 5px;
+  }
+  
+  .form {
     display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    
-}
-.form{
-   
-    
-}
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ .Button {
+    background-color: #020202;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  .Button:hover {
+    background-color: #1920f0;
+  }
+  
