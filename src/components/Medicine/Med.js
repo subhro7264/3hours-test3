@@ -18,11 +18,12 @@ const Med = (props) => {
         id={product.id}
         price={product.price}
         name={product.name}
-        enteredDescriptions={product.enteredDescriptions}
+        description={product.description}
+
       />
     ));
-    console.log('orderTableData:',orderTable)
-  return (
+    console.log('orderTableData:',products)
+   return (
     <Fragment>
       <MedicineForm addTo={orderHandler}/>
       {products}

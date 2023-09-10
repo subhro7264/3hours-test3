@@ -18,21 +18,21 @@ const MedicineItem = (props) => {
   };
   return (
     <Fragment>
-      <div>
+      <div className={classes.div}>
         <div className={classes.list}>
           <div>
-            <h3>{props.name}--</h3>
+            <h3>{props.name}</h3>
           </div>
           <div>
-            <h3>{props.description} :</h3>
+            <h3>{props.description}</h3>
           </div>
           <div>
-            <h3>{props.price} : :</h3>
+            <h3>{props.price}</h3>
           </div>
           <div>
             <h3> {props.amount}</h3>
           </div>
-          <button onClick={() => addToCartHandler(1)}> Add To Cart</button>
+          <button className={classes.Button} onClick={() => addToCartHandler(1)}> Add To Cart</button>
         </div>
       </div>
     </Fragment>

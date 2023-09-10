@@ -43,7 +43,7 @@ const MedicineForm = (props) => {
           <input type="number" id="price" ref={priceRef} />
           <label htmlFor="amount">Amount</label>
           <input type="number" id="amount" defaultValue={1} ref={amountRef} />
-          <button type="submit">Add Products</button>
+          <button  className={classes.Button} type="submit">Add Products</button>
         </form>
       </div>
     </Fragment>

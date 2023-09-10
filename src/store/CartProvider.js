@@ -46,7 +46,7 @@ const CartProvider = (props) => {
 
 
 
-  const crudCrud = `https://crudcrud.com/api/f8e35722493d492aa2e66982f1126160/med`;
+  const crudCrud = `https://crudcrud.com/api/97ef51bdcbb64771be86717a29b1e43c/med`;
 
   /*--------------------------------->GET DATA FROM  CRUD CRUD <------------------------------ */
 

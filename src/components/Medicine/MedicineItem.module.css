@@ -1,6 +1,36 @@
-.list{
+.div {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.list {
     display: flex;
-   align-items: center;
-   background-color: rgba(179, 29, 221, 0.207);
-   justify-content: center;
-}
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list h3 {
+    margin: 0;
+  }
+  
+  .Button {
+    background-color: #0099fff7;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .Button:hover {
+    background-color: #000000;
+  }
