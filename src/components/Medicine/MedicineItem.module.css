@@ -1,0 +1,6 @@
+.list{
+    display: flex;
+   align-items: center;
+   background-color: rgba(179, 29, 221, 0.207);
+   justify-content: center;
+}

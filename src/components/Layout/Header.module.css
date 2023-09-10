@@ -1,0 +1,23 @@
+  .cart{
+    background-color: rgba(214, 207, 67, 0.522);
+    display: flex;
+    justify-content: space-around;
+    color: rgb(113, 9, 113);
+    
+  }
+  .cartButton{
+    background-color: rgb(36, 180, 125);
+    border-radius: 10px;
+    width: 15rem;
+  }
+  .badge{
+    margin-left: 10px;
+    background-color: rgb(177, 177, 193);
+    width: 3rem;
+    border-radius: 2px;
+  }
+
+
+  .cartButton:hover{
+   background-color: blue;
+  }
